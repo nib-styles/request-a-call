@@ -1,6 +1,6 @@
 {
-  "name": "request-a-call-styles",
-  "description": "Request a call for nib-website",
+  "name": "request-a-call",
+  "description": "Request a call styles for nib-website",
   "main": "index.scss",
   "styles": [
     "index.css",
