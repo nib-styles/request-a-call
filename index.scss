@@ -1,0 +1,105 @@
+.rac {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(119, 119, 119, 0.77);
+  color: #f5f5f5;
+}
+
+.rac-content {
+  padding: 10px;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.rac-form {
+  padding: 10px;
+
+}
+.rac-form-content {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.headset-icon {
+  background: url(icons/headset.png) 0 0 no-repeat;
+  background-size: contain !important;
+  height: 22px;
+  width: 22px;
+  padding-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}
+
+.call-me-now-button {
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+
+@-webkit-keyframes slide-in-lead-animation {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 50px;
+  }
+}
+@keyframes slide-in-lead-animation {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 50px;
+  }
+}
+
+.slide-in-lead {
+  animation: slide-in-lead-animation 1s ease-in-out;
+  -webkit-animation: slide-in-lead-animation 1s ease-in-out;
+}
+
+@-webkit-keyframes slide-in-form-animation {
+  from {
+    max-height: 0px;
+  }
+  to {
+    max-height: 500px;
+  }
+}
+@keyframes slide-in-form-animation {
+  from {
+    height: 0px;
+  }
+  to {
+    max-height: 500px;
+  }
+}
+
+.slide-in-form {
+  animation: slide-in-form-animation 1.5s ease-in-out;
+  -webkit-animation: slide-in-form-animation 1.5s ease-in-out;
+}
+
+@-webkit-keyframes fade-out-lead-animation {
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
+@keyframes fade-out-lead-animation {
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out-lead {
+  animation: fade-out-lead-animation 0.5s ease-in-out;
+  -webkit-animation: fade-out-lead-animation 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
