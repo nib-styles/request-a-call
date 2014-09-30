@@ -1,3 +1,21 @@
+$component-path: null !default;
+
+$image-path: null; // !default;
+@if $component-path == null {
+  $image-path: "images" !default;
+}
+@else {
+  $image-path: "#{$component-path}/nib-styles-request-a-call/images" !default;
+}
+
+@function image-path($path) {
+  @return "#{$image-path}/#{$path}";
+}
+
+@function image-url($path) {
+  @return url(image-path($path));
+}
+
 .rac {
   position: fixed;
   bottom: 0;
@@ -24,8 +42,8 @@
 }
 
 .headset-icon {
-  background: url(images/headset.png) 0 0 no-repeat;
-  background: url(images/headset.svg) 0 0 no-repeat;
+  background: image-url('headset.png') 0 0 no-repeat;
+  background: image-url('headset.svg') 0 0 no-repeat;
   background-size: contain !important;
   height: 22px;
   width: 22px;

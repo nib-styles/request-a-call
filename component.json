@@ -5,8 +5,8 @@
     "index.css"
   ],
   "images": [
-    "icons/headset.png",
-    "icons/headset.svg"
+    "images/headset.png",
+    "images/headset.svg"
   ],
   "files": [
     "index.scss"
