@@ -1,6 +1,7 @@
 {
   "name": "request-a-call",
   "description": "Request a call styles for nib-website",
+  "version": "0.0.1",
   "styles": [
     "index.css"
   ],
