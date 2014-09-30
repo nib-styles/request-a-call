@@ -1,13 +1,14 @@
 {
   "name": "request-a-call",
   "description": "Request a call styles for nib-website",
-  "main": "index.scss",
   "styles": [
-    "index.css",
-    "index.scss"
+    "index.css"
   ],
   "images": [
     "icons/headset.png",
     "icons/headset.svg"
+  ],
+  "files": [
+    "index.scss"
   ]
 }
