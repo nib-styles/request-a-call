@@ -1,0 +1,10 @@
+{
+  "name": "@nib-styles/request-a-call",
+  "version": "0.0.1",
+  "description": "Request a call styles for nib-website",
+  "main.css": "index.css",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nib-styles/request-a-call.git"
+  }
+}
